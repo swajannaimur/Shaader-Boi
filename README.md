@@ -1,13 +1,13 @@
-# Shaader Boi 
+# Recipe Book App
 
 ## Description
-A user-friendly full-stack MERN application for managing volunteer posts. Users can create, update, and delete volunteer needs, sign up as volunteers, and manage their posts securely with JWT authentication. The app supports email/password and Google login and is fully responsive with dark/light mode.
+A user-friendly full-stack MERN application for managing recipes. Users can add, update, and delete recipes, discover top recipes based on likes, add recipes to their wishlist, and like recipes by others. The app supports email/password and Google login and includes features like dynamic top recipes, filtering by cuisine, and dark/light mode.
 
 ## Live Project
-[View Live Demo](https://volunteerly-7571d.web.app/)
+[View Live Demo](https://shaader-boi.web.app/)
 
 ## Screenshot
-![App Screenshot](https://github.com/swajannaimur/blood-bridge/blob/main/Screenshot%202025-08-08%20152728.png)
+![App Screenshot](https://github.com/swajannaimur/Shaader-Boi/blob/main/Screenshot%202025-08-08%20152256.png)
 
 ## Technologies Used
 - React.js
@@ -21,12 +21,14 @@ A user-friendly full-stack MERN application for managing volunteer posts. Users 
 ## Core Features
 - User registration and login (email/password & Google Auth)
 - Role-based private routes protected with JWT
-- Create, read, update, and delete volunteer need posts
-- Volunteer request system with dynamic updates
+- Create, read, update, and delete recipes
+- Dynamic top recipes section sorted by likes
+- Wishlist and like functionality
+- Filter recipes by cuisine type
 - Responsive UI for mobile, tablet, and desktop
 - Dark/light theme toggle
 - Dynamic page titles and custom 404 page
-- Toast/sweet alert notifications for actions
+- Toast/sweet alert notifications for user actions
 
 ## Dependencies
 - axios
@@ -36,12 +38,11 @@ A user-friendly full-stack MERN application for managing volunteer posts. Users 
 - firebase
 - jsonwebtoken
 - tailwindcss
-- framer-motion
 
 ## Getting Started - Running Locally
 
 1. **Clone the repositories:**
 
    ```bash
-   git clone https://github.com/swajannaimur/your-client-repo.git
-   git clone https://github.com/swajannaimur/your-server-repo.git
+   git clone https://github.com/your-username/client-recipe-book.git
+   git clone https://github.com/your-username/server-recipe-book.git
