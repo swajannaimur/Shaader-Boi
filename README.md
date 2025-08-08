@@ -44,5 +44,5 @@ A user-friendly full-stack MERN application for managing recipes. Users can add,
 1. **Clone the repositories:**
 
    ```bash
-   git clone https://github.com/your-username/client-recipe-book.git
-   git clone https://github.com/your-username/server-recipe-book.git
+   git clone https://github.com/swajannaimur/client-recipe-book.git
+
